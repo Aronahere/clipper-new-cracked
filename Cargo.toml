@@ -1,0 +1,13 @@
+[package]
+name = "cryptex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winapi = { version = "0.3.9", features = ["synchapi", "winnt", "errhandlingapi", "shellapi", "securitybaseapi", "winreg", "winbase", "winerror"] }
+regex = "1.8.1"
+static_vcruntime = "2.0.0"
+
+[profile.release]
+panic = "abort"
+codegen-units = 1
