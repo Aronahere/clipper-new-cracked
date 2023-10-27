@@ -6,14 +6,12 @@ CryptoClipper is a super-efficient and probably best open-source stealthy crypto
 
 - **Persistence** - Once it's on a system, CryptoClipper stays there. Even system restarts won't remove this little guy.
 - **Mutex** - CryptoClipper uses mutex mechanisms to prevent multiple instances of itself from running on the same system.
-- **0 CPU usage** - This tool is incredibly lightweight and won't bog down the system it's running on.
+- **Almost zero CPU usage** - This tool is incredibly lightweight and won't bog down the system it's running on.
 - **Small** - This program only takes like 2,3 mb of disk space, it only uses 2 crates
 - **Force UAC** - It will force user to give this program administrator permissions
 - **Stealthy** - It's not easy to find the virus on the victim's computer
-- **6 Cryptocurrencies** - Our clipper supports BTC, XMR, DGE, LTC, ETH and Bitcoin cash
+- **All Cryptocurrencies** - Our clipper supports all cryptocurrencies you will provide
 - **Windows defender bypass** - Clipper will add itself to windows defender exclusions once it executes
-- **TODO: XOR** - Encrypt all strings at compile time and decompile at runtime to avoid detection 
-- **TODO: Virustotal bypass** - Ignore all Virustotal bots & Detect VM usage
 
 ## ⚙️ Installing
 
